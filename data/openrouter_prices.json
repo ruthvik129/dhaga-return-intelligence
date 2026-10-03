@@ -1,0 +1,3254 @@
+{
+  "fetched_at": "2026-10-02T13:11:44+00:00",
+  "source": "https://openrouter.ai/api/v1/models",
+  "models": {
+    "apodex/apodex-1.1-mini:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "unbiased/pareto-26.10-preview": {
+      "input_per_mtok": 0.7999999999999999,
+      "output_per_mtok": 3.1999999999999997,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "openai/gpt-6.1-sol-pro": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6.1-sol": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-sonnet-5.5": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-sonnet-5.5:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 5.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "typesafe/jev-router": {
+      "input_per_mtok": -1000000.0,
+      "output_per_mtok": -1000000.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "perceptron/perceptron-mk1.5": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 1.5,
+      "context_length": 36864,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "fireworks/ember-1": {
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 15.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5.3-prime": {
+      "input_per_mtok": 2.8,
+      "output_per_mtok": 8.8,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3.8-max-prime": {
+      "input_per_mtok": 4.0,
+      "output_per_mtok": 12.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "stealth/space-bunny-alpha": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "aion-labs/aion-3.5-mini": {
+      "input_per_mtok": 0.7,
+      "output_per_mtok": 1.4,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "aion-labs/aion-3.5": {
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 6.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "upstage/solar-mini4": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 524288,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "cohere/command-a-plus": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.5,
+      "context_length": 192000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-luna-pro": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.5,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-luna-pro:batch": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.25,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-luna": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.5,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-luna:batch": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.25,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-sol-pro": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-sol-pro:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 5.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-sol": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-sol:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 5.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-5.5": {
+      "input_per_mtok": 4.0,
+      "output_per_mtok": 20.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-5.5:batch": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "xiaomi/mimo-v2.6-pro-ultraspeed": {
+      "input_per_mtok": 4.35,
+      "output_per_mtok": 8.7,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "xiaomi/mimo-v2.6-flash": {
+      "input_per_mtok": 0.14,
+      "output_per_mtok": 0.28,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "xiaomi/mimo-v2.6-pro": {
+      "input_per_mtok": 0.435,
+      "output_per_mtok": 0.87,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "x-ai/grok-4.7": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 500000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.8-omni-flash": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.47,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "prism-ml/ternary-bonsai-2-27b": {
+      "input_per_mtok": 0.075,
+      "output_per_mtok": 0.5,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5.3-flashx": {
+      "input_per_mtok": 0.37,
+      "output_per_mtok": 1.25,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "unbiased/pareto": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 7.5,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "~deepseek/deepseek-pro-latest": {
+      "input_per_mtok": 0.13199999999999998,
+      "output_per_mtok": 0.396,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~deepseek/deepseek-flash-latest": {
+      "input_per_mtok": 0.015,
+      "output_per_mtok": 1.2,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "inference-net/schematron-v2-turbo": {
+      "input_per_mtok": 0.03,
+      "output_per_mtok": 0.15,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "inference-net/schematron-v2-small": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.22999999999999998,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "~openai/gpt-astra-latest": {
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 50.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~openai/gpt-sol-latest": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~openai/gpt-terra-latest": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~openai/gpt-luna-latest": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.5,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "sakana/fugu-ultra-v2": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 30.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "sakana/fugu-max": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "inclusionai/ling-3.0-flash-vl": {
+      "input_per_mtok": 0.020999999999999998,
+      "output_per_mtok": 0.061599999999999995,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.2,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v4.1-flash:batch": {
+      "input_per_mtok": 0.112,
+      "output_per_mtok": 0.33599999999999997,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "inception/mercury-2.5": {
+      "input_per_mtok": 0.04,
+      "output_per_mtok": 0.15,
+      "context_length": 260000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "nex-agi/nex-n2.5-mini": {
+      "input_per_mtok": 0.024999999999999998,
+      "output_per_mtok": 0.09999999999999999,
+      "context_length": 262144,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "nex-agi/nex-n2.5-pro": {
+      "input_per_mtok": 0.075,
+      "output_per_mtok": 0.25,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-astra": {
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 50.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-astra:batch": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-astra-pro": {
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 50.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-6-astra-pro:batch": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "inclusionai/ling-3.0-flash-sante:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3.8-max-0902": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta/muse-spark-1.3-contributor": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta/muse-spark-1.3": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 4.25,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.8-flash": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 3.75,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.8-flash:batch": {
+      "input_per_mtok": 0.375,
+      "output_per_mtok": 1.875,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-fable-5.1": {
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 50.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-fable-5.1:batch": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "ibm-granite/granite-4.2-8b": {
+      "input_per_mtok": 0.06,
+      "output_per_mtok": 0.25,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "tencent/hy4-preview": {
+      "input_per_mtok": 0.834,
+      "output_per_mtok": 2.501,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "inclusionai/ling-3.0-flash-fin": {
+      "input_per_mtok": 0.06,
+      "output_per_mtok": 0.18,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~z-ai/glm-flash-latest": {
+      "input_per_mtok": 0.02625,
+      "output_per_mtok": 0.8999999999999999,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.8-flash": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.47,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5.3-flash": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.5,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5.3-flash:batch": {
+      "input_per_mtok": 0.06,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta/muse-spark-1.2-contributor": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v4-flash-vision-exp": {
+      "input_per_mtok": 0.21559999999999999,
+      "output_per_mtok": 0.6468,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "tencent/hy-mt2-1.8b": {
+      "input_per_mtok": 0.044,
+      "output_per_mtok": 0.17700000000000002,
+      "context_length": 8192,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "tencent/hy-mt2-30b-a3b": {
+      "input_per_mtok": 0.074,
+      "output_per_mtok": 0.295,
+      "context_length": 8192,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "~z-ai/glm-latest": {
+      "input_per_mtok": 0.12,
+      "output_per_mtok": 4.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "tencent/hy-mt2-7b": {
+      "input_per_mtok": 0.074,
+      "output_per_mtok": 0.295,
+      "context_length": 8192,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5.3": {
+      "input_per_mtok": 1.4,
+      "output_per_mtok": 4.4,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5.3:batch": {
+      "input_per_mtok": 0.44999999999999996,
+      "output_per_mtok": 2.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.8-27b": {
+      "input_per_mtok": 0.42,
+      "output_per_mtok": 3.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.8-27b:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "dots-studio/dots-3-note-preview:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 512000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.7-flash": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 3.75,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.7-flash:batch": {
+      "input_per_mtok": 0.375,
+      "output_per_mtok": 1.875,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "bytedance-seed/seed-2-1-turbo": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 2.5,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.8-2.4t-a95b": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "bytedance-seed/seed-2.0-code": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 3.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v4-pro-0813": {
+      "input_per_mtok": 0.66,
+      "output_per_mtok": 1.9800000000000002,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "x-ai/grok-4.6": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 500000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "liquid/lfm-2.5-2.6b:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 65536,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "nvidia/nemotron-3.5-lightning": {
+      "input_per_mtok": 0.06,
+      "output_per_mtok": 0.16,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "nvidia/nemotron-3.5-lightning:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "sakana/sakana-namazu": {
+      "input_per_mtok": 0.95,
+      "output_per_mtok": 4.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "upstage/solar-pro4": {
+      "input_per_mtok": 0.09,
+      "output_per_mtok": 0.36,
+      "context_length": 524288,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta/muse-glimmer-30b": {
+      "input_per_mtok": 0.35,
+      "output_per_mtok": 1.5,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta/muse-spark-1.2": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 4.25,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~deepseek/deepseek-v4-flash-latest": {
+      "input_per_mtok": 0.0038250000000000003,
+      "output_per_mtok": 1.5999999999999999,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v4-flash-0731": {
+      "input_per_mtok": 0.0051,
+      "output_per_mtok": 1.28,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "thinkingmachines/inkling-small": {
+      "input_per_mtok": 0.44999999999999996,
+      "output_per_mtok": 1.2,
+      "context_length": 524288,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "thinkingmachines/inkling-small:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3.7-flash": {
+      "input_per_mtok": 0.03,
+      "output_per_mtok": 0.13,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "anthropic/claude-opus-5": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-5:batch": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 12.5,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "inclusionai/ling-3.0-flash": {
+      "input_per_mtok": 0.020999999999999998,
+      "output_per_mtok": 0.063,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "poolside/laguna-s-2.1": {
+      "input_per_mtok": 0.09,
+      "output_per_mtok": 0.18,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "poolside/laguna-s-2.1:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "google/gemini-3.6-flash": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 3.75,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.6-flash:batch": {
+      "input_per_mtok": 0.375,
+      "output_per_mtok": 1.875,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.5-flash-lite": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 2.5,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.5-flash-lite:batch": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 1.25,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meituan/longcat-2.0": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.2,
+      "context_length": 1048756,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "thinkingmachines/inkling": {
+      "input_per_mtok": 0.95,
+      "output_per_mtok": 4.05,
+      "context_length": 524288,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "thinkingmachines/inkling:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "openrouter/auto-beta": {
+      "input_per_mtok": -1000000.0,
+      "output_per_mtok": -1000000.0,
+      "context_length": 2000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "moonshotai/kimi-k3": {
+      "input_per_mtok": 2.7,
+      "output_per_mtok": 13.5,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "moonshotai/kimi-k3:batch": {
+      "input_per_mtok": 2.2800000000000002,
+      "output_per_mtok": 11.399999999999999,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta/muse-spark-1.1": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 4.25,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "kwaipilot/kat-coder-pro-v2.5": {
+      "input_per_mtok": 0.74,
+      "output_per_mtok": 2.96,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-luna-pro": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 1.2,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-luna-pro:batch": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.6,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-luna": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 1.2,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-luna:batch": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.6,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-terra-pro": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-terra-pro:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 6.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-terra": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-terra:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 6.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-sol-pro": {
+      "input_per_mtok": 4.0,
+      "output_per_mtok": 20.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-sol-pro:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 5.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-sol": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.6-sol:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 5.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "x-ai/grok-4.5": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 500000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~x-ai/grok-latest": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 500000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "aion-labs/aion-3.0-mini": {
+      "input_per_mtok": 0.7,
+      "output_per_mtok": 1.4,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "aion-labs/aion-3.0": {
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 6.0,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "tencent/hy3": {
+      "input_per_mtok": 0.13199999999999998,
+      "output_per_mtok": 0.5279999999999999,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "poolside/laguna-xs-2.1": {
+      "input_per_mtok": 0.06,
+      "output_per_mtok": 0.12,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "poolside/laguna-xs-2.1:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "anthropic/claude-sonnet-5": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-sonnet-5:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 5.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.1-flash-lite-image": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 1.5,
+      "context_length": 65536,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "sakana/fugu-ultra": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 30.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.1-flash-image": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 3.0,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3-pro-image": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "cohere/north-mini-code:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 256000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "z-ai/glm-5.2": {
+      "input_per_mtok": 0.41,
+      "output_per_mtok": 3.9899999999999998,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openrouter/fusion": {
+      "input_per_mtok": -1000000.0,
+      "output_per_mtok": -1000000.0,
+      "context_length": 1000000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "moonshotai/kimi-k2.7-code": {
+      "input_per_mtok": 0.6712,
+      "output_per_mtok": 3.35,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~anthropic/claude-fable-latest": {
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 50.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-fable-5": {
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 50.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-fable-5:batch": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "nvidia/nemotron-3.5-content-safety": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "nvidia/nemotron-3.5-content-safety:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 2.2,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3.7-plus": {
+      "input_per_mtok": 0.32,
+      "output_per_mtok": 1.28,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "minimax/minimax-m3": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.2,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "stepfun/step-3.7-flash": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 1.15,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-4.8": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-4.8:batch": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 12.5,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.7-max": {
+      "input_per_mtok": 1.475,
+      "output_per_mtok": 4.425,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "x-ai/grok-build-0.1": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 2.0,
+      "context_length": 256000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.5-flash": {
+      "input_per_mtok": 1.5,
+      "output_per_mtok": 9.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.5-flash:batch": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 4.5,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "perceptron/perceptron-mk1": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 1.5,
+      "context_length": 32768,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.1-flash-lite": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 1.5,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.1-flash-lite:batch": {
+      "input_per_mtok": 0.125,
+      "output_per_mtok": 0.75,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-chat-latest": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 30.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "x-ai/grok-4.3": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 2.5,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "x-ai/grok-4.3:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 2.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-medium-3-5": {
+      "input_per_mtok": 1.5,
+      "output_per_mtok": 7.5,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-medium-3-5:batch": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 3.75,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 256000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "~anthropic/claude-haiku-latest": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 5.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~openai/gpt-mini-latest": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 4.5,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~google/gemini-pro-latest": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~moonshotai/kimi-latest": {
+      "input_per_mtok": 1.3900000000000001,
+      "output_per_mtok": 13.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~google/gemini-flash-latest": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 3.75,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "~anthropic/claude-sonnet-latest": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 10.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.5-plus-20260420": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.7999999999999998,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.6-flash": {
+      "input_per_mtok": 0.1875,
+      "output_per_mtok": 1.125,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.6-35b-a3b": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 1.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.6-max-preview": {
+      "input_per_mtok": 1.0270000000000001,
+      "output_per_mtok": 6.162,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.6-27b": {
+      "input_per_mtok": 0.32,
+      "output_per_mtok": 3.1999999999999997,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.5-pro": {
+      "input_per_mtok": 30.0,
+      "output_per_mtok": 180.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.5-pro:batch": {
+      "input_per_mtok": 15.0,
+      "output_per_mtok": 90.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.5": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 30.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.5:batch": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 15.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v4-pro": {
+      "input_per_mtok": 0.20879999999999999,
+      "output_per_mtok": 0.41759999999999997,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v4-flash": {
+      "input_per_mtok": 0.041999999999999996,
+      "output_per_mtok": 0.08399999999999999,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "tencent/hy3-preview": {
+      "input_per_mtok": 0.18,
+      "output_per_mtok": 0.6,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "xiaomi/mimo-v2.5-pro": {
+      "input_per_mtok": 0.435,
+      "output_per_mtok": 0.87,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "xiaomi/mimo-v2.5": {
+      "input_per_mtok": 0.14,
+      "output_per_mtok": 0.28,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.4-image-2": {
+      "input_per_mtok": 8.0,
+      "output_per_mtok": 15.0,
+      "context_length": 272000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "~anthropic/claude-opus-latest": {
+      "input_per_mtok": 4.0,
+      "output_per_mtok": 20.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openrouter/pareto-code": {
+      "input_per_mtok": -1000000.0,
+      "output_per_mtok": -1000000.0,
+      "context_length": 2000000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "moonshotai/kimi-k2.6": {
+      "input_per_mtok": 0.43415,
+      "output_per_mtok": 1.8279999999999998,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-4.7": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-4.7:batch": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 12.5,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5.1": {
+      "input_per_mtok": 0.9646,
+      "output_per_mtok": 3.0316,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemma-4-26b-a4b-it": {
+      "input_per_mtok": 0.09,
+      "output_per_mtok": 0.3,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemma-4-26b-a4b-it:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "google/gemma-4-31b-it": {
+      "input_per_mtok": 0.09,
+      "output_per_mtok": 0.33999999999999997,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemma-4-31b-it:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3.6-plus": {
+      "input_per_mtok": 0.325,
+      "output_per_mtok": 1.95,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5v-turbo": {
+      "input_per_mtok": 1.2,
+      "output_per_mtok": 4.0,
+      "context_length": 202752,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "arcee-ai/trinity-large-thinking": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 0.7999999999999999,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "x-ai/grok-4.20-multi-agent": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 2.5,
+      "context_length": 2000000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "x-ai/grok-4.20": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 2.5,
+      "context_length": 2000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/lyria-3-pro-preview": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 1048576,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "google/lyria-3-clip-preview": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 1048576,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "rekaai/reka-edge": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.09999999999999999,
+      "context_length": 16384,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "minimax/minimax-m2.7": {
+      "input_per_mtok": 0.21,
+      "output_per_mtok": 0.84,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "openai/gpt-5.4-nano": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 1.25,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.4-nano:batch": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.625,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.4-mini": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 4.5,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.4-mini:batch": {
+      "input_per_mtok": 0.375,
+      "output_per_mtok": 2.25,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-small-2603": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.6,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-small-2603:batch": {
+      "input_per_mtok": 0.075,
+      "output_per_mtok": 0.3,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5-turbo": {
+      "input_per_mtok": 1.2,
+      "output_per_mtok": 4.0,
+      "context_length": 202752,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "nvidia/nemotron-3-super-120b-a12b": {
+      "input_per_mtok": 0.08,
+      "output_per_mtok": 0.44999999999999996,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "nvidia/nemotron-3-super-120b-a12b:free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "bytedance-seed/seed-2.0-lite": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 2.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.5-9b": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.15,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.4-pro": {
+      "input_per_mtok": 30.0,
+      "output_per_mtok": 180.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.4-pro:batch": {
+      "input_per_mtok": 15.0,
+      "output_per_mtok": 90.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.4": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 15.0,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.4:batch": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 7.5,
+      "context_length": 1050000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "inception/mercury-2": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 0.75,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.1-flash-lite-preview": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 1.5,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "bytedance-seed/seed-2.0-mini": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.39999999999999997,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.1-flash-image-preview": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 3.0,
+      "context_length": 65536,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.5-35b-a3b": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 1.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.5-27b": {
+      "input_per_mtok": 0.195,
+      "output_per_mtok": 1.56,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.5-122b-a10b": {
+      "input_per_mtok": 0.26,
+      "output_per_mtok": 2.08,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.5-flash-02-23": {
+      "input_per_mtok": 0.065,
+      "output_per_mtok": 0.26,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.1-pro-preview-customtools": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.3-codex": {
+      "input_per_mtok": 1.75,
+      "output_per_mtok": 14.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "aion-labs/aion-2.0": {
+      "input_per_mtok": 0.7999999999999999,
+      "output_per_mtok": 1.5999999999999999,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "google/gemini-3.1-pro-preview": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3.1-pro-preview:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 6.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-sonnet-4.6": {
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 15.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-sonnet-4.6:batch": {
+      "input_per_mtok": 1.5,
+      "output_per_mtok": 7.5,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.5-plus-02-15": {
+      "input_per_mtok": 0.26,
+      "output_per_mtok": 1.56,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3.5-397b-a17b": {
+      "input_per_mtok": 0.55,
+      "output_per_mtok": 3.5,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "minimax/minimax-m2.5": {
+      "input_per_mtok": 0.27,
+      "output_per_mtok": 1.08,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-5": {
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 1.92,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-max-thinking": {
+      "input_per_mtok": 0.78,
+      "output_per_mtok": 3.9,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-4.6": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-4.6:batch": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 12.5,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-coder-next": {
+      "input_per_mtok": 0.12,
+      "output_per_mtok": 0.7999999999999999,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openrouter/free": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "stepfun/step-3.5-flash": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.3,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "moonshotai/kimi-k2.5": {
+      "input_per_mtok": 0.44999999999999996,
+      "output_per_mtok": 2.25,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "upstage/solar-pro-3": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.6,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "minimax/minimax-m2-her": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.2,
+      "context_length": 65536,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "writer/palmyra-x5": {
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 6.0,
+      "context_length": 1040000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "openai/gpt-audio": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 10.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-audio-mini": {
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 2.4,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-4.7-flash": {
+      "input_per_mtok": 0.060500000000000005,
+      "output_per_mtok": 0.39999999999999997,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.2-codex": {
+      "input_per_mtok": 1.75,
+      "output_per_mtok": 14.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "bytedance-seed/seed-1.6-flash": {
+      "input_per_mtok": 0.075,
+      "output_per_mtok": 0.3,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "bytedance-seed/seed-1.6": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 2.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "minimax/minimax-m2.1": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.2,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "z-ai/glm-4.7": {
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 2.2,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3-flash-preview": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 3.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3-flash-preview:batch": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 1.5,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "nvidia/nemotron-3-nano-30b-a3b": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.2-chat": {
+      "input_per_mtok": 1.75,
+      "output_per_mtok": 14.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.2-pro": {
+      "input_per_mtok": 21.0,
+      "output_per_mtok": 168.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.2-pro:batch": {
+      "input_per_mtok": 10.5,
+      "output_per_mtok": 84.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.2": {
+      "input_per_mtok": 1.75,
+      "output_per_mtok": 14.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.2:batch": {
+      "input_per_mtok": 0.875,
+      "output_per_mtok": 7.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/devstral-2512": {
+      "input_per_mtok": 0.39999999999999997,
+      "output_per_mtok": 2.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "relace/relace-search": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 3.0,
+      "context_length": 256000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "z-ai/glm-4.6v": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 0.8999999999999999,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "openrouter/bodybuilder": {
+      "input_per_mtok": -1000000.0,
+      "output_per_mtok": -1000000.0,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "openai/gpt-5.1-codex-max": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "amazon/nova-2-lite-v1": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 2.5,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "mistralai/ministral-14b-2512": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/ministral-8b-2512": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.15,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/ministral-8b-2512:batch": {
+      "input_per_mtok": 0.075,
+      "output_per_mtok": 0.075,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/ministral-3b-2512": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.09999999999999999,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-large-2512": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 1.5,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-large-2512:batch": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 0.75,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v3.2": {
+      "input_per_mtok": 0.28,
+      "output_per_mtok": 0.42,
+      "context_length": 163840,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-4.5": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 25.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-4.5:batch": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 12.5,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-3-pro-image-preview": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 12.0,
+      "context_length": 65536,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.1": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.1:batch": {
+      "input_per_mtok": 0.625,
+      "output_per_mtok": 5.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.1-codex": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5.1-codex-mini": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 2.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "moonshotai/kimi-k2-thinking": {
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 2.5,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "amazon/nova-premier-v1": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 12.5,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "perplexity/sonar-pro-search": {
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 15.0,
+      "context_length": 200000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "mistralai/voxtral-small-24b-2507": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.3,
+      "context_length": 32768,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-oss-safeguard-20b": {
+      "input_per_mtok": 0.075,
+      "output_per_mtok": 0.3,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "minimax/minimax-m2": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.2,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-vl-32b-instruct": {
+      "input_per_mtok": 0.10400000000000001,
+      "output_per_mtok": 0.41600000000000004,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "ibm-granite/granite-4.0-h-micro": {
+      "input_per_mtok": 0.017,
+      "output_per_mtok": 0.112,
+      "context_length": 131000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "openai/gpt-5-image-mini": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 2.0,
+      "context_length": 400000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-haiku-4.5": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 5.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-haiku-4.5:batch": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 2.5,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-vl-8b-thinking": {
+      "input_per_mtok": 0.18,
+      "output_per_mtok": 2.0999999999999996,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-vl-8b-instruct": {
+      "input_per_mtok": 0.117,
+      "output_per_mtok": 0.45499999999999996,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5-image": {
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 10.0,
+      "context_length": 400000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-2.5-flash-image": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 2.5,
+      "context_length": 32768,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-vl-30b-a3b-thinking": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 2.4,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-vl-30b-a3b-instruct": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.6,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5-pro": {
+      "input_per_mtok": 15.0,
+      "output_per_mtok": 120.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5-pro:batch": {
+      "input_per_mtok": 7.5,
+      "output_per_mtok": 60.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-4.6": {
+      "input_per_mtok": 0.43,
+      "output_per_mtok": 1.75,
+      "context_length": 204800,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-sonnet-4.5": {
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 15.0,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-sonnet-4.5:batch": {
+      "input_per_mtok": 1.5,
+      "output_per_mtok": 7.5,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v3.2-exp": {
+      "input_per_mtok": 0.27,
+      "output_per_mtok": 0.41,
+      "context_length": 163840,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "thedrummer/cydonia-24b-v4.1": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 0.5,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "relace/relace-apply-3": {
+      "input_per_mtok": 0.85,
+      "output_per_mtok": 1.25,
+      "context_length": 256000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3-vl-235b-a22b-thinking": {
+      "input_per_mtok": 0.39999999999999997,
+      "output_per_mtok": 4.0,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-vl-235b-a22b-instruct": {
+      "input_per_mtok": 0.21,
+      "output_per_mtok": 1.9,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-max": {
+      "input_per_mtok": 0.78,
+      "output_per_mtok": 3.9,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-coder-plus": {
+      "input_per_mtok": 0.65,
+      "output_per_mtok": 3.25,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-v3.1-terminus": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.0,
+      "context_length": 163840,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-coder-flash": {
+      "input_per_mtok": 0.195,
+      "output_per_mtok": 0.975,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3-next-80b-a3b-thinking": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 1.2,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-next-80b-a3b-instruct": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 1.1,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen-plus-2025-07-28": {
+      "input_per_mtok": 0.26,
+      "output_per_mtok": 0.78,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "moonshotai/kimi-k2-0905": {
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 2.5,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-30b-a3b-thinking-2507": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 2.4,
+      "context_length": 81920,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "nousresearch/hermes-4-405b": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 3.0,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "deepseek/deepseek-chat-v3.1": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 0.95,
+      "context_length": 163840,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-medium-3.1": {
+      "input_per_mtok": 0.39999999999999997,
+      "output_per_mtok": 2.0,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-medium-3.1:batch": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 1.0,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-4.5v": {
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 1.7999999999999998,
+      "context_length": 65536,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "openai/gpt-5": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5:batch": {
+      "input_per_mtok": 0.625,
+      "output_per_mtok": 5.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5-mini": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 2.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5-mini:batch": {
+      "input_per_mtok": 0.125,
+      "output_per_mtok": 1.0,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5-nano": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.39999999999999997,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-5-nano:batch": {
+      "input_per_mtok": 0.024999999999999998,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 400000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-oss-120b": {
+      "input_per_mtok": 0.037,
+      "output_per_mtok": 0.16999999999999998,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-oss-120b:batch": {
+      "input_per_mtok": 0.0296,
+      "output_per_mtok": 0.136,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-oss-20b": {
+      "input_per_mtok": 0.018,
+      "output_per_mtok": 0.09,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-oss-20b:batch": {
+      "input_per_mtok": 0.024,
+      "output_per_mtok": 0.112,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-opus-4.1": {
+      "input_per_mtok": 15.0,
+      "output_per_mtok": 75.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "anthropic/claude-opus-4.1:batch": {
+      "input_per_mtok": 7.5,
+      "output_per_mtok": 37.5,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/codestral-2508": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 0.8999999999999999,
+      "context_length": 256000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/codestral-2508:batch": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.44999999999999996,
+      "context_length": 256000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-coder-30b-a3b-instruct": {
+      "input_per_mtok": 0.07,
+      "output_per_mtok": 0.28,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-30b-a3b-instruct-2507": {
+      "input_per_mtok": 0.04815,
+      "output_per_mtok": 0.19305,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "z-ai/glm-4.5": {
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 2.2,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "z-ai/glm-4.5-air": {
+      "input_per_mtok": 0.13,
+      "output_per_mtok": 0.85,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3-235b-a22b-thinking-2507": {
+      "input_per_mtok": 0.22999999999999998,
+      "output_per_mtok": 2.3,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3-coder": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.0,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "bytedance/ui-tars-1.5-7b": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-2.5-flash-lite": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.39999999999999997,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-2.5-flash-lite:batch": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-235b-a22b-2507": {
+      "input_per_mtok": 0.0875,
+      "output_per_mtok": 0.35,
+      "context_length": 262144,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "moonshotai/kimi-k2": {
+      "input_per_mtok": 0.5700000000000001,
+      "output_per_mtok": 2.3,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 0.8999999999999999,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "tencent/hunyuan-a13b-instruct": {
+      "input_per_mtok": 0.14,
+      "output_per_mtok": 0.5700000000000001,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "morph/morph-v3-large": {
+      "input_per_mtok": 0.8999999999999999,
+      "output_per_mtok": 1.9,
+      "context_length": 262144,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "morph/morph-v3-fast": {
+      "input_per_mtok": 0.7999999999999999,
+      "output_per_mtok": 1.2,
+      "context_length": 81920,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "baidu/ernie-4.5-vl-424b-a47b": {
+      "input_per_mtok": 0.42,
+      "output_per_mtok": 1.25,
+      "context_length": 123000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "mistralai/mistral-small-3.2-24b-instruct": {
+      "input_per_mtok": 0.09375,
+      "output_per_mtok": 0.25,
+      "context_length": 256000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "minimax/minimax-m1": {
+      "input_per_mtok": 0.55,
+      "output_per_mtok": 2.2,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "google/gemini-2.5-flash": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 2.5,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-2.5-flash:batch": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 1.25,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-2.5-pro": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-2.5-pro:batch": {
+      "input_per_mtok": 0.625,
+      "output_per_mtok": 5.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/o3-pro": {
+      "input_per_mtok": 20.0,
+      "output_per_mtok": 80.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemini-2.5-pro-preview": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 10.0,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-r1-0528": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 2.1500000000000004,
+      "context_length": 163840,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "anthropic/claude-sonnet-4": {
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 15.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "mistralai/mistral-medium-3": {
+      "input_per_mtok": 0.39999999999999997,
+      "output_per_mtok": 2.0,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta-llama/llama-guard-4-12b": {
+      "input_per_mtok": 0.18,
+      "output_per_mtok": 0.18,
+      "context_length": 163840,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3-30b-a3b": {
+      "input_per_mtok": 0.12,
+      "output_per_mtok": 0.5,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-8b": {
+      "input_per_mtok": 0.117,
+      "output_per_mtok": 0.45499999999999996,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen3-14b": {
+      "input_per_mtok": 0.12,
+      "output_per_mtok": 0.24,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-32b": {
+      "input_per_mtok": 0.08,
+      "output_per_mtok": 0.28,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen3-235b-a22b": {
+      "input_per_mtok": 0.45499999999999996,
+      "output_per_mtok": 1.8199999999999998,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "openai/o4-mini-high": {
+      "input_per_mtok": 1.1,
+      "output_per_mtok": 4.4,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/o3": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 8.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/o3:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 4.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/o4-mini": {
+      "input_per_mtok": 1.1,
+      "output_per_mtok": 4.4,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/o4-mini:batch": {
+      "input_per_mtok": 0.55,
+      "output_per_mtok": 2.2,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4.1": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 8.0,
+      "context_length": 1047576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4.1:batch": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 4.0,
+      "context_length": 1047576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4.1-mini": {
+      "input_per_mtok": 0.39999999999999997,
+      "output_per_mtok": 1.5999999999999999,
+      "context_length": 1047576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4.1-mini:batch": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 0.7999999999999999,
+      "context_length": 1047576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4.1-nano": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.39999999999999997,
+      "context_length": 1047576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4.1-nano:batch": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 1047576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta-llama/llama-4-maverick": {
+      "input_per_mtok": 0.1875,
+      "output_per_mtok": 0.6525,
+      "context_length": 1048576,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta-llama/llama-4-scout": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.3,
+      "context_length": 1310720,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-chat-v3-0324": {
+      "input_per_mtok": 0.29,
+      "output_per_mtok": 1.1400000000000001,
+      "context_length": 163840,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/o1-pro": {
+      "input_per_mtok": 150.0,
+      "output_per_mtok": 600.0,
+      "context_length": 200000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-small-3.1-24b-instruct": {
+      "input_per_mtok": 0.351,
+      "output_per_mtok": 0.5549999999999999,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "google/gemma-3-4b-it": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.09999999999999999,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "google/gemma-3-12b-it": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.15,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "cohere/command-a": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 10.0,
+      "context_length": 256000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "rekaai/reka-flash-3": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 65536,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "google/gemma-3-27b-it": {
+      "input_per_mtok": 0.08,
+      "output_per_mtok": 0.44999999999999996,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "thedrummer/skyfall-36b-v2": {
+      "input_per_mtok": 0.55,
+      "output_per_mtok": 0.7999999999999999,
+      "context_length": 32768,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "perplexity/sonar-reasoning-pro": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 8.0,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "perplexity/sonar-pro": {
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 15.0,
+      "context_length": 200000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "perplexity/sonar-deep-research": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 8.0,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "mistralai/mistral-saba": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 0.6,
+      "context_length": 32768,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/o3-mini-high": {
+      "input_per_mtok": 1.1,
+      "output_per_mtok": 4.4,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "aion-labs/aion-rp-llama-3.1-8b": {
+      "input_per_mtok": 0.7999999999999999,
+      "output_per_mtok": 1.5999999999999999,
+      "context_length": 32768,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "qwen/qwen2.5-vl-72b-instruct": {
+      "input_per_mtok": 0.7999999999999999,
+      "output_per_mtok": 1.0,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen-plus": {
+      "input_per_mtok": 0.26,
+      "output_per_mtok": 0.78,
+      "context_length": 1000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/o3-mini": {
+      "input_per_mtok": 1.1,
+      "output_per_mtok": 4.4,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/o3-mini:batch": {
+      "input_per_mtok": 0.55,
+      "output_per_mtok": 2.2,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-small-24b-instruct-2501": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.08,
+      "context_length": 32768,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "perplexity/sonar": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 1.0,
+      "context_length": 127072,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "deepseek/deepseek-r1": {
+      "input_per_mtok": 0.7,
+      "output_per_mtok": 2.5,
+      "context_length": 64000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "minimax/minimax-01": {
+      "input_per_mtok": 0.19999999999999998,
+      "output_per_mtok": 1.1,
+      "context_length": 1000192,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "microsoft/phi-4": {
+      "input_per_mtok": 0.07,
+      "output_per_mtok": 0.14,
+      "context_length": 16384,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "deepseek/deepseek-chat": {
+      "input_per_mtok": 0.2574,
+      "output_per_mtok": 1.0287,
+      "context_length": 163840,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "sao10k/l3.3-euryale-70b": {
+      "input_per_mtok": 0.65,
+      "output_per_mtok": 0.75,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "openai/o1": {
+      "input_per_mtok": 15.0,
+      "output_per_mtok": 60.0,
+      "context_length": 200000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "cohere/command-r7b-12-2024": {
+      "input_per_mtok": 0.0375,
+      "output_per_mtok": 0.15,
+      "context_length": 128000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "meta-llama/llama-3.3-70b-instruct": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.32,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "amazon/nova-lite-v1": {
+      "input_per_mtok": 0.06,
+      "output_per_mtok": 0.24,
+      "context_length": 300000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "amazon/nova-micro-v1": {
+      "input_per_mtok": 0.035,
+      "output_per_mtok": 0.14,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "amazon/nova-pro-v1": {
+      "input_per_mtok": 0.7999999999999999,
+      "output_per_mtok": 3.1999999999999997,
+      "context_length": 300000,
+      "supports_tools": true,
+      "supports_structured_outputs": false
+    },
+    "openai/gpt-4o-2024-11-20": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 10.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-large-2407": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen-2.5-coder-32b-instruct": {
+      "input_per_mtok": 0.66,
+      "output_per_mtok": 1.0,
+      "context_length": 32768,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "thedrummer/unslopnemo-12b": {
+      "input_per_mtok": 0.39999999999999997,
+      "output_per_mtok": 0.39999999999999997,
+      "context_length": 1024000,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "anthracite-org/magnum-v4-72b": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 5.0,
+      "context_length": 32768,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen-2.5-7b-instruct": {
+      "input_per_mtok": 0.09999999999999999,
+      "output_per_mtok": 0.19999999999999998,
+      "context_length": 32768,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta-llama/llama-3.2-1b-instruct": {
+      "input_per_mtok": 0.027,
+      "output_per_mtok": 0.201,
+      "context_length": 60000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "meta-llama/llama-3.2-3b-instruct": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.33,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "qwen/qwen-2.5-72b-instruct": {
+      "input_per_mtok": 0.36,
+      "output_per_mtok": 0.39999999999999997,
+      "context_length": 32768,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "cohere/command-r-08-2024": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.6,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "cohere/command-r-plus-08-2024": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 10.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "sao10k/l3.1-euryale-70b": {
+      "input_per_mtok": 0.85,
+      "output_per_mtok": 0.85,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "nousresearch/hermes-3-llama-3.1-70b": {
+      "input_per_mtok": 0.7,
+      "output_per_mtok": 0.7,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "nousresearch/hermes-3-llama-3.1-405b": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 1.0,
+      "context_length": 131072,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "sao10k/l3-lunaris-8b": {
+      "input_per_mtok": 0.04,
+      "output_per_mtok": 0.049999999999999996,
+      "context_length": 8192,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4o-2024-08-06": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 10.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta-llama/llama-3.1-70b-instruct": {
+      "input_per_mtok": 0.39999999999999997,
+      "output_per_mtok": 0.39999999999999997,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "meta-llama/llama-3.1-8b-instruct": {
+      "input_per_mtok": 0.049999999999999996,
+      "output_per_mtok": 0.08,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-nemo": {
+      "input_per_mtok": 0.019000000000000003,
+      "output_per_mtok": 0.03,
+      "context_length": 131072,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4o-mini": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.6,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4o-mini-2024-07-18": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.6,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4o-mini:batch": {
+      "input_per_mtok": 0.075,
+      "output_per_mtok": 0.3,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "google/gemma-2-27b-it": {
+      "input_per_mtok": 0.65,
+      "output_per_mtok": 0.65,
+      "context_length": 8192,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4o": {
+      "input_per_mtok": 2.5,
+      "output_per_mtok": 10.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4o-2024-05-13": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 15.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4o:batch": {
+      "input_per_mtok": 1.25,
+      "output_per_mtok": 5.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mixtral-8x22b-instruct": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 65536,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "microsoft/wizardlm-2-8x22b": {
+      "input_per_mtok": 0.62,
+      "output_per_mtok": 0.62,
+      "context_length": 65535,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "openai/gpt-4-turbo": {
+      "input_per_mtok": 10.0,
+      "output_per_mtok": 30.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4-turbo:batch": {
+      "input_per_mtok": 5.0,
+      "output_per_mtok": 15.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mistralai/mistral-large": {
+      "input_per_mtok": 2.0,
+      "output_per_mtok": 6.0,
+      "context_length": 128000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-3.5-turbo-0613": {
+      "input_per_mtok": 1.0,
+      "output_per_mtok": 2.0,
+      "context_length": 4095,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openrouter/auto": {
+      "input_per_mtok": -1000000.0,
+      "output_per_mtok": -1000000.0,
+      "context_length": 2000000,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-3.5-turbo-instruct": {
+      "input_per_mtok": 1.5,
+      "output_per_mtok": 2.0,
+      "context_length": 4095,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-3.5-turbo-16k": {
+      "input_per_mtok": 3.0,
+      "output_per_mtok": 4.0,
+      "context_length": 16385,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "mancer/weaver": {
+      "input_per_mtok": 0.39999999999999997,
+      "output_per_mtok": 0.75,
+      "context_length": 8000,
+      "supports_tools": false,
+      "supports_structured_outputs": false
+    },
+    "undi95/remm-slerp-l2-13b": {
+      "input_per_mtok": 0.35,
+      "output_per_mtok": 0.65,
+      "context_length": 6144,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "gryphe/mythomax-l2-13b": {
+      "input_per_mtok": 0.08,
+      "output_per_mtok": 0.11,
+      "context_length": 8192,
+      "supports_tools": false,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-3.5-turbo": {
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 1.5,
+      "context_length": 16385,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-3.5-turbo:batch": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 0.75,
+      "context_length": 16385,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    },
+    "openai/gpt-4": {
+      "input_per_mtok": 30.0,
+      "output_per_mtok": 60.0,
+      "context_length": 8191,
+      "supports_tools": true,
+      "supports_structured_outputs": true
+    }
+  }
+}

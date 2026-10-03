@@ -1,0 +1,29 @@
+# Pinned to the versions this project was built and verified against.
+# LangChain 1.x differs materially from 0.x — do not loosen these casually.
+
+# --- orchestration (provider-agnostic) ---
+langchain==1.4.3
+langchain-core==1.6.6
+
+# --- provider integrations -------------------------------------------------
+# OpenRouter is reached through langchain-openai with a different base_url, so
+# it needs no package of its own. The other two are installed so switching
+# MODEL_A_PROVIDER / MODEL_B_PROVIDER is an env edit, not a dependency change.
+langchain-openai==1.6.7
+langchain-anthropic==1.7.5
+langchain-google-genai==4.4.0
+
+# --- schema, data ---------------------------------------------------------
+pydantic==2.13.5
+pandas==3.0.6
+openpyxl==3.1.5          # reads the source .xlsx directly; no manual CSV step
+python-dotenv==1.2.4
+
+# --- API for the React front end (web/) ------------------------------------
+fastapi==0.142.2
+uvicorn==0.54.0
+python-multipart==0.0.32 # file uploads
+
+# --- tests -----------------------------------------------------------------
+pytest==9.1.1
+httpx==0.28.1            # FastAPI TestClient

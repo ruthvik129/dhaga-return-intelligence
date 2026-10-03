@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Secrets — never commit
+.env
+
+# Local state: response cache and session-keyed reviewer corrections
+output/state.sqlite3
+output/state.sqlite3-wal
+output/state.sqlite3-shm
+output/full_run.log
+
+# The run artifact IS committed on purpose: it is what makes the deployed app
+# render cold with no API key (premise P7). It contains predictions only —
+# never the hidden expected_* columns, which save_run() asserts.
+!output/run_latest.json
+
+# Uploaded files land here from the app; they are the user's data, not ours
+output/uploaded_*
+output/runs/
+
+# Front end: dependencies and the production build (npm run build)
+web/node_modules/
+web/dist/
+
+# Autopilot working files
+.omc/
+.gstack/
+docs/
