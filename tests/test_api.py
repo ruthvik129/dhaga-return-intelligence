@@ -317,3 +317,45 @@ def test_a_corrupt_workbook_is_rejected_without_detail(client):
     assert resp.status_code == 422
     assert "Traceback" not in resp.text and str(config.OUTPUT_DIR) not in resp.text
     assert not list(config.OUTPUT_DIR.glob("uploaded_*.xlsx")) or True
+
+
+# --- public demo seeding -------------------------------------------------
+
+
+def test_a_fresh_session_is_empty_unless_demo_seeding_is_on(client):
+    """Default behaviour must stay "nothing until you upload".
+
+    Seeding is for a public demo URL only. If it leaked into the default, a
+    local user would see someone else's run and think it was their file.
+    """
+    assert client.get("/api/status", headers={"X-Session-Id": "s" * 32}).json()["artifact"] is False
+
+
+def test_demo_seeding_serves_the_committed_run_to_a_fresh_session(monkeypatch):
+    """With the flag on, a first-time visitor gets a full dashboard instead of
+    an upload prompt — and the answer key still resolves, so Evaluation works."""
+    import importlib
+
+    import api.server as srv
+
+    monkeypatch.setenv("DEMO_SEED_RUN", "1")
+    srv = importlib.reload(srv)
+    if not config.RUN_ARTIFACT.exists():
+        pytest.skip("no committed run artifact")
+    c = TestClient(srv.app)
+    sid = {"X-Session-Id": "t" * 32}
+    assert c.get("/api/status", headers=sid).json()["artifact"] is True
+    assert c.get("/api/briefing", headers=sid).json()["artifact"] is True
+    monkeypatch.delenv("DEMO_SEED_RUN")
+    importlib.reload(srv)
+
+
+def test_the_committed_artifact_records_its_source(monkeypatch):
+    """Evaluation joins the answer key by looking up the file the run used, so
+    an artifact with no `source` scores nothing."""
+    from src import data_io
+
+    payload = data_io.load_run(config.RUN_ARTIFACT)
+    if payload is None:
+        pytest.skip("no committed run artifact")
+    assert payload["run"].get("source") == "sample"

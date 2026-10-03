@@ -22,9 +22,13 @@ output/full_run.log
 output/uploaded_*
 output/runs/
 
-# Front end: dependencies and the production build (npm run build)
+# Front end dependencies.
 web/node_modules/
-web/dist/
+
+# The production build IS committed, for the same reason the run artifact is:
+# it lets the service deploy as a pure Python app with no Node on the server.
+# Rebuild with `cd web && npm run build` before pushing a UI change.
+!web/dist/
 
 # Autopilot working files
 .omc/

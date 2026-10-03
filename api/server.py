@@ -105,10 +105,21 @@ def run_path(session_id: str) -> Path:
     return RUNS_DIR / f"{session_id}.json"
 
 
+#: On a public demo a first-time visitor would otherwise land on "upload a
+#: file" and have to wait out a full run before seeing anything. With this on,
+#: a session with no run of its own reads the committed one; the moment they
+#: classify their own file, their run takes over.
+DEMO_SEED_RUN = os.getenv("DEMO_SEED_RUN", "0").strip().lower() in {"1", "true", "yes"}
+
+
 def load_artifact(session_id: str) -> dict | None:
     """This session's run, or None until it has uploaded and classified."""
     path = run_path(session_id)
     if not path.exists():
+        if DEMO_SEED_RUN and config.RUN_ARTIFACT.exists():
+            return _artifact_cached(
+                str(config.RUN_ARTIFACT), config.RUN_ARTIFACT.stat().st_mtime
+            )
         return None
     return _artifact_cached(str(path), path.stat().st_mtime)
 

@@ -8,7 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+# dist is committed on purpose: the service deploys as a pure Python app and
+# serves this build. Rebuild with `npm run build` before pushing UI changes.
+!dist
 dist-ssr
 *.local
 

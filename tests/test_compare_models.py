@@ -38,6 +38,19 @@ def test_summary_matches_the_readme_numbers(committed):
     assert row["cost_per_1000_usd"] == pytest.approx(0.0247)
 
 
+def test_each_stage_is_scored_on_the_same_hard_rows(committed):
+    """On the committed run, all 24 escalated rows went to review, so the
+    'accepted after second check' figure is empty. The stage-by-stage read is
+    not: the second check was right on 18 of them, the first pass on 12."""
+    payload, truth = committed
+    row = cm.summarise(payload, truth)
+    assert row["hard_rows"] == 24
+    assert row["hard_second_right"] == 18
+    assert row["hard_first_right"] == 12
+    assert cm._fmt_share(18, 24) == "75% (18/24)"
+    assert cm._fmt_share(None, 0) == "n/a"
+
+
 def test_without_an_answer_key_accuracy_is_not_available(committed):
     payload, truth = committed
     row = cm.summarise(payload, truth.iloc[0:0])
@@ -70,6 +83,7 @@ def test_table_names_models_and_shows_failures(committed):
     table = cm.render_table([ok, bad])
     assert "mistralai/mistral-nemo → openai/gpt-oss-120b" in table
     assert "94.0%" in table and "$0.0247" in table
+    assert "75% (18/24)" in table and "50% (12/24)" in table
     assert "FAILED: RuntimeError: provider down" in table
 
 

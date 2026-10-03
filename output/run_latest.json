@@ -14,7 +14,8 @@
       "max_concurrency": 16,
       "max_transport_retries": 3,
       "inject_schema_faults": false
-    }
+    },
+    "source": "sample"
   },
   "validation": {
     "total_rows": 1000,

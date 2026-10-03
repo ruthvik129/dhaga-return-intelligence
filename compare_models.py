@@ -136,6 +136,32 @@ def _pct(bucket: dict | None) -> float | None:
     return None if not bucket else bucket.get("accuracy_pct")
 
 
+def hard_row_reads(records: list[dict], ground_truth: pd.DataFrame) -> dict:
+    """How each stage did on the escalated rows, whatever routing did next.
+
+    The router accepts a second-check answer only when it agrees with the
+    first pass, so "accuracy of rows accepted after the second check" is
+    usually n/a and says nothing about the second-check model. This reads each
+    stage's own answer from the trace instead, on exactly the same hard rows,
+    which is what choosing a second-check model needs.
+    """
+    if ground_truth.empty or "expected_primary_reason" not in ground_truth:
+        return {}
+    truth = ground_truth.set_index("return_id")["expected_primary_reason"].to_dict()
+    first = second = n = 0
+    for rec in records:
+        if not rec.get("escalated") or rec["return_id"] not in truth:
+            continue
+        reads = {s.get("step"): s.get("primary") for s in rec.get("trace") or [] if isinstance(s, dict)}
+        if "model_b_primary" not in reads:
+            continue  # escalated but the second check never answered
+        n += 1
+        expected = truth[rec["return_id"]]
+        first += reads.get("model_a_primary") == expected
+        second += reads["model_b_primary"] == expected
+    return {"hard_rows": n, "hard_first_right": first, "hard_second_right": second}
+
+
 def summarise(payload: dict, ground_truth: pd.DataFrame) -> dict:
     """The comparison numbers for one finished run.
 
@@ -165,6 +191,7 @@ def summarise(payload: dict, ground_truth: pd.DataFrame) -> dict:
         "run_total_usd": cost.get("run_total_usd"),
         "fully_priced": bool(cost.get("fully_priced")),
         "seconds": payload["run"].get("elapsed_seconds"),
+        **hard_row_reads(payload["records"], ground_truth),
     }
 
 
@@ -205,6 +232,8 @@ COLUMNS = [
     ("sub-reason\naccuracy", lambda r: _fmt_pct(r.row.get("sub_reason_accuracy_pct"))),
     ("sent to\n2nd check", lambda r: _fmt_pct(r.row.get("second_check_pct"))),
     ("sent to\nreview", lambda r: _fmt_pct(r.row.get("review_pct"))),
+    ("2nd check right\non hard rows", lambda r: _fmt_share(r.row.get("hard_second_right"), r.row.get("hard_rows"))),
+    ("1st pass right\non same rows", lambda r: _fmt_share(r.row.get("hard_first_right"), r.row.get("hard_rows"))),
     ("unreadable\nresponses", lambda r: str(r.row.get("unreadable_responses", "—"))),
     ("$ per 1,000\ncomments", lambda r: _fmt_usd(r.row.get("cost_per_1000_usd"))),
     ("time", lambda r: _fmt_secs(r.row.get("seconds"))),
@@ -213,6 +242,13 @@ COLUMNS = [
 
 def _fmt_pct(v: float | None) -> str:
     return "n/a" if v is None else f"{v:.1f}%"
+
+
+def _fmt_share(right: int | None, n: int | None) -> str:
+    """`75% (18/24)`: the count stays visible because n is always small."""
+    if right is None or not n:
+        return "n/a"
+    return f"{round(100 * right / n)}% ({right}/{n})"
 
 
 def _fmt_usd(v: float | None) -> str:
@@ -254,6 +290,7 @@ def write_csv(results: list[Result], path: Path) -> None:
     keys = [
         "rows", "auto_accept_accuracy_pct", "auto_accept_n", "overall_accuracy_pct",
         "sub_reason_accuracy_pct", "second_check_pct", "review_pct",
+        "hard_rows", "hard_second_right", "hard_first_right",
         "unreadable_responses", "cost_per_1000_usd", "run_total_usd", "fully_priced",
         "seconds",
     ]
@@ -366,6 +403,11 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     print("\n" + render_table(results))
+    print(
+        "\nHard rows = the rows sent for a second check. Each stage's own answer is "
+        "scored, whether or not it was accepted. There are few of them, so treat "
+        "small differences as noise."
+    )
     stamp = time.strftime("%Y-%m-%d-%H%M%S")
     out = COMPARISONS_DIR / f"{stamp}.csv"
     write_csv(results, out)

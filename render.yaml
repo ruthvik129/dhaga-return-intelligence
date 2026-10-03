@@ -1,0 +1,39 @@
+# Render blueprint. Connect the repo in Render and it reads this file.
+#
+# One service, not two: the FastAPI app already serves the built SPA from
+# web/dist, so there is no separate front end to host, no CORS and no second
+# deploy to keep in step. web/dist is committed for exactly this reason, which
+# is why the build command here is pure Python and needs no Node on the server.
+services:
+  - type: web
+    name: dhaga-return-intelligence
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api.server:app --host 0.0.0.0 --port $PORT
+    # Needs no session and touches no run, so it is a true liveness check.
+    healthCheckPath: /api/taxonomy
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.9"
+
+      # Set this in the Render dashboard, never in the repo.
+      - key: OPEN_ROUTER_KEY
+        sync: false
+
+      # Classification is live on this URL, so the ceiling is what stops one
+      # visitor spending the budget. At the current model pairing 200 rows is
+      # roughly 20 minutes and 10 cents.
+      - key: MAX_JOB_ROWS
+        value: "200"
+
+      # A first-time visitor sees the committed 440-row run instead of an
+      # empty dashboard. Their own run replaces it the moment they classify.
+      - key: DEMO_SEED_RUN
+        value: "1"
+
+      # Free instances have an ephemeral disk, so uploads, the response cache
+      # and reviewer corrections reset when the instance restarts. Attach a
+      # disk mounted at /opt/render/project/src/output to keep them.
+      - key: MAX_CONCURRENCY
+        value: "8"
